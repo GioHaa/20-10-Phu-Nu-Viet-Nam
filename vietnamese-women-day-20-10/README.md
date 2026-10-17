@@ -113,9 +113,9 @@ Nếu bạn muốn dùng một bài hát kỷ niệm riêng, chỉ cần chép f
 
 ---
 
-## 🌐 Hướng Dẫn Public & Đưa Lên Mạng Để Gửi Cho Mọi Người Dùng
+## 🌐 Hướng Dẫn Public & Đưa Lên Mạng Để Gửi
 
-Để gửi link web này cho người ấy hoặc chia sẻ mã nguồn cho bạn bè, bạn có thể sử dụng các cách hoàn toàn **miễn phí 100%** sau:
+Để gửi link web này cho người ấy , bạn có thể sử dụng các cách hoàn toàn **miễn phí 100%** sau:
 
 ### Cách 1: Tải lên Netlify Drop (Cực nhanh - Không cần biết lập trình, 30 giây là có link)
 1. Truy cập trang web: [app.netlify.com/drop](https://app.netlify.com/drop) (hoặc đăng ký tài khoản miễn phí tại [netlify.com](https://www.netlify.com)).
@@ -127,27 +127,6 @@ Nếu bạn muốn dùng một bài hát kỷ niệm riêng, chỉ cần chép f
 1. Đăng ký tài khoản tại [vercel.com](https://vercel.com).
 2. Kéo thả thư mục dự án lên hoặc kết nối với GitHub.
 3. Bấm **Deploy**. Sau 10 giây bạn sẽ nhận được đường link dạng `https://tang-em-20-10.vercel.app`.
-
-### Cách 3: Đưa lên GitHub & Kích hoạt GitHub Pages (Dành cho chia sẻ mã nguồn mở)
-Nếu bạn muốn public mã nguồn để mọi người tải về, fork và cùng sử dụng:
-1. Đăng nhập [github.com](https://github.com) và bấm nút **New Repository**.
-2. Đặt tên (ví dụ: `chuc-mung-20-10-web`), chọn chế độ **Public** và bấm **Create repository**.
-3. Tải tất cả các file trong thư mục này lên GitHub:
-   - Cách dễ nhất: Bấm **uploading an existing file** trên giao diện GitHub rồi kéo toàn bộ các file (`index.html`, thư mục `css`, `js`, `assets`, `README.md`) vào và bấm **Commit changes**.
-   - Hoặc dùng Git dòng lệnh:
-     ```bash
-     git init
-     git add .
-     git commit -m "Thiết kế web chúc mừng 20/10"
-     git branch -M main
-     git remote add origin <link_repo_cua_ban>
-     git push -u origin main
-     ```
-4. **Bật trang web online miễn phí (GitHub Pages)**:
-   - Trong trang repository trên GitHub, vào **Settings** -> **Pages**.
-   - Tại mục **Branch**, chọn `main` và thư mục `/ (root)`, sau đó bấm **Save**.
-   - Sau khoảng 1-2 phút, GitHub sẽ hiển thị đường link trang web của bạn:  
-     `https://<ten-tai-khoan-github>.github.io/<ten-repo>/`
 
 ---
 
